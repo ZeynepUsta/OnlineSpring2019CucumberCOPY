@@ -42,7 +42,7 @@ public class LoginStepDefinitions {
     //this is temporary solution until we start using hooks
     @Then("user quits")
     public void user_quits() {
-       Driver.closeDriver();
+        Driver.closeDriver();
     }
 
     @Then("user logs in as a driver")
@@ -56,5 +56,8 @@ public class LoginStepDefinitions {
     public void user_logs_in_as_a(String role) {
         pages.loginPage().login(role);
     }
+
+
+
 
 }

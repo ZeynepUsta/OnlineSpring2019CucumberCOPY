@@ -1,6 +1,5 @@
 @vehicles
 Feature: Vehicles
-  As user I want to see list of all vehicles
 
   Scenario: Login as driver and navigate to the Vehicles
     Given user is on the landing page
